@@ -1,7 +1,7 @@
 'use strict';
 const form = document.querySelector('form');
 form.addEventListener('submit', (event) =>{
-    if(form.username.value < 3){
+    if(form.username.value < 5){
         alert('Username must be at least three characters long');
         event.preventDefault();
     }
